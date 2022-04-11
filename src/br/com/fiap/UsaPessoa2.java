@@ -11,7 +11,7 @@ public class UsaPessoa2 {
 		try {
 			scan = new Scanner(System.in);
 			System.out.println("Digite seu nome: ");
-			pessoa1.setNome(scan.nextLine()); //nextLine() a proxima linha ed String
+			pessoa1.setNome(scan.nextLine()); //nextLine() a proxima linha da String
 			System.out.println("Digite seu ano de nascimento: ");
 			pessoa1.setAnoNascimento(scan.nextInt());
 			
